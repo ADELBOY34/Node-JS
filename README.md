@@ -1,5 +1,11 @@
-# Express Routing Checkpoint
+# Node.js Exercises
 
-Install dependencies with `npm install`, then run `npm start` and open <http://localhost:3000>.
+Install dependencies with `npm install`, then run an exercise:
 
-This Express site contains Home, Our Services, and Contact us pages with shared navigation and responsive styling. Custom middleware allows page requests Monday to Friday from 09:00 up to (but not including) 17:00, using the `Africa/Algiers` time zone by default. Set `BUSINESS_TIME_ZONE` to another IANA time zone if needed.
+- `npm run hello` prints `HELLO WORLD`.
+- `npm run server` starts the web server at <http://localhost:3000>.
+- `npm run filesystem` creates `welcome.txt` with `Hello Node` and reads `hello.txt`.
+- `npm run password` prints a generated 16-character password.
+- `npm run email` sends a sample message using your SMTP environment variables. Copy `.env.example` to `.env`, fill in your provider's SMTP settings, and set `EMAIL_TO` to your own address. Never commit `.env` or share an app password.
+
+The email script does not include personal credentials. SMTP credentials are required to send a real message.
